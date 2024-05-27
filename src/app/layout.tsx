@@ -1,4 +1,4 @@
-import "@/../styles/index.css"
+import "@/../styles/globals.css"
 import { PrimeReactProvider } from "primereact/api"
 
 export default function RootLayout({
@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <PrimeReactProvider>
         <body>{children}</body>
       </PrimeReactProvider>
