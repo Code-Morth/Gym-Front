@@ -1,14 +1,17 @@
+@import './components/organins/';
+@import './page/';
+@import './components/global/';
+@import './components/molecules/';
+@import './components/ui/';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@import './page/';
-@import './scale.css';
-@import './components/hook/';
-@import './components/molecules/';
-@import './components/organins/';
-@import './components/ui/';
+
+
+
 
 
 

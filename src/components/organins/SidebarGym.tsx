@@ -1,12 +1,11 @@
 import React from 'react'
-import { Sidebar } from 'primereact/sidebar';
 import Link from 'next/link';
 import Image from 'next/image';
 import useSidebar from '../hook/useSidebar';
         
         
 
-const SidebarGym = ( {open , close }:any) => {
+const SidebarGym = ( ) => {
 
   const { optionSelect, selectedOption } = useSidebar();
 
@@ -14,7 +13,7 @@ const SidebarGym = ( {open , close }:any) => {
   return (
     <div>
 
-<Sidebar className='box_sidebar_' visible={open} onHide={close}>
+<div className='box_sidebar_' >
 
   <div className='box_image'>
     <div className='w-[10rem] h-[10rem]'>
@@ -104,7 +103,7 @@ const SidebarGym = ( {open , close }:any) => {
           </div>
 
 
-    </Sidebar>
+    </div>
    
       
     </div>
